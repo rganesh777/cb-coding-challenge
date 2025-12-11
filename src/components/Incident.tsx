@@ -15,7 +15,7 @@ const Incident = ({
     <div className="incident column-gap-20" title={`Incident: ${name}`}>
       <div>
         <img
-          src={`/img/alarm-${priorityText.toLowerCase()}.svg`}
+          src={`img/alarm-${priorityText.toLowerCase()}.svg`}
           alt={imgAlt}
           title={imgAlt}
         />

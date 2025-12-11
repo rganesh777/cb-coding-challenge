@@ -53,13 +53,15 @@ This creates an optimized production build in the `dist/` folder.
 
 ## Future Improvements
 
-- [ ] Add unit tests for all components - Must.
-- [ ] Implement loading states during API calls
-- [ ] Accessibility improvements (ARIA labels, keyboard navigation)
+- Add unit tests for all components - Must.
+- Current CSS is placed in App.css because the project is small and simple. For larger applications, it's better to use more scalable styling solutions such as utility frameworks (e.g., Tailwind CSS) or CSS-in-JS libraries.
+- Favicon needs to be updated.
+- Implement loading states during API calls
+- Accessibility improvements (ARIA labels, keyboard navigation)
 
-- [ ] Search functionality - filter incidents by name or location
-- [ ] Multi filters - allow filtering by multiple priorities
-- [ ] Pagination - handle large incident lists efficiently
-- [ ] Incident details modal - click to view full incident information
-- [ ] E2E tests - add Cypress or Playwright tests
-- [ ] Performance monitoring - analytics and error tracking
+- Search functionality - filter incidents by name or location
+- Multi filters - allow filtering by multiple priorities
+- Pagination - handle large incident lists efficiently
+- Incident details modal - click to view full incident information
+- E2E tests - add Cypress or Playwright tests
+- Performance monitoring - analytics and error tracking
