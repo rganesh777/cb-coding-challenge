@@ -59,8 +59,9 @@ This creates an optimized production build in the `dist/` folder.
 - Implement loading states during API calls
 - Accessibility improvements (ARIA labels, keyboard navigation)
 
-- Search functionality - filter incidents by name or location
+- Search functionality - filter incidents by name or priority
 - Multi filters - allow filtering by multiple priorities
+- Can also add sort by option if required.
 - Pagination - handle large incident lists efficiently
 - Incident details modal - click to view full incident information
 - E2E tests - add Cypress or Playwright tests
